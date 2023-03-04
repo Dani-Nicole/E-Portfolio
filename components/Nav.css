@@ -1,3 +1,25 @@
+..container-fluid  {
+    display: flex;
+    width: 100%;
+}
+
 .container-fluid img {
 background-color: aliceblue;
+}
+
+.left-container {
+    width: 60%;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+.right-container a {
+    color: white;
+    text-decoration: none;
 }
