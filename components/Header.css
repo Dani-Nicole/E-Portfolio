@@ -1,0 +1,74 @@
+.header-main-container {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.header-first-container {
+    position: relative;
+    background-color: rgb(33, 37, 41);
+    width: 50%;
+}
+
+.header-text-container {
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.header-text-container h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.globe-container {
+    top: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 0.5rem;
+    background-color: rgb(238, 59, 235);
+    width: 35%;
+    height: 5.5rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.text-container {
+    width: 70%;
+    font-size: 1.15rem;
+    padding: 0.25rem;
+}
+
+.globe-wrapper {
+    height: 4rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 100%;
+    background-color: rgb(33, 37, 41);
+}
+
+.fa-globe {
+    color: rgb(238, 59, 235);
+    font-size: 2rem;
+    perspective: 1000px;
+    animation: rotate 7s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    100% { transform: rotate(360deg)}
+  }
+.header-second-container {
+    background-color: rgb(238, 59, 235);
+    width: 15%;
+}
+
+.header-third-container {
+    background-color: rgb(33, 37, 41);
+    width: 35%;
+}
