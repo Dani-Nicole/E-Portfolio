@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Ubuntu Regular';
+    src: url('./Assets/Fonts/Ubuntu/Ubuntu-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url('./Assets/Fonts/Ubuntu/Ubuntu-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Ubuntu-Medium';
+    src: url('./Assets/Fonts/Ubuntu/Ubuntu-Regular.ttf');
+  }
+  
+  body {
+    font-family: 'Ubuntu-Bold';
+    color: hsl(233, 47%, 7%);
+  }
