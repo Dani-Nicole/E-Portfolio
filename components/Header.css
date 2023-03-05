@@ -63,9 +63,10 @@
     0% { transform: rotateX(0deg) rotateY(0deg); }
     100% { transform: rotate(360deg)}
   }
+
 .header-second-container {
-    background-color: rgb(238, 59, 235);
     width: 15%;
+    background-color: rgb(238, 59, 235);
 }
 
 .header-third-container {
