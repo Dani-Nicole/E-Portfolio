@@ -1,0 +1,17 @@
+.contact-container {
+    width: 100%;
+    display: flex;
+}
+
+.contact-container-left {
+    width: 50%;
+    padding: 1.5rem;
+    background-color: rgb(33, 37, 41);
+}
+
+.contact-container-right {
+    width: 50%;
+    padding: 1.5rem;
+    background-color: rgb(33, 37, 41);
+}
+
