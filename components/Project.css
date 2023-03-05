@@ -1,0 +1,21 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.project-container-left {
+    width: 50%;
+    padding: 1.5rem;
+    background-color: rgb(33, 37, 41);
+}
+
+.project-container-right {
+    width: 50%;
+    padding: 1.5rem;
+    background-color: rgb(33, 37, 41);
+}
