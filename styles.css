@@ -16,3 +16,20 @@
     font-family: 'Ubuntu-Bold';
     color: hsl(233, 47%, 7%);
   }
+
+.about-container {
+  width: 50%;
+  background-color: white;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.html {width: 70%; background-color: rgba(224, 123, 224, 1);}
+.css {width: 65%; background-color: rgba(224, 123, 224, 1);}
+.js {width: 60%; background-color: rgba(224, 123, 224, 1);}
+.php {width: 60%; background-color: rgba(224, 123, 224, 1);}

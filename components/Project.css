@@ -1,6 +1,7 @@
 .project-container {
     display: flex;
     flex-direction: column;
+    background-color: rgb(33, 37, 41);
 }
 
 .project-wrapper {
@@ -12,10 +13,13 @@
     width: 50%;
     padding: 1.5rem;
     background-color: rgb(33, 37, 41);
+    color: white;
+
 }
 
 .project-container-right {
     width: 50%;
     padding: 1.5rem;
     background-color: rgb(33, 37, 41);
+    color: white;
 }
